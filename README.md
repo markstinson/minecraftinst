@@ -81,6 +81,7 @@ Licensing
 ---------
 
 Copyright 2013 Phasma <phasma@binarycore.org>
+
 All rights reserved.
 
 This work is licensed under the BSD 2-Clause License. To view a copy of this
