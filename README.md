@@ -17,7 +17,7 @@ Functionality
 * Creates launch script for Minecraft in `~/.minecraft/minecraft.sh`
 * Adds shell alias for `minecraft`
 * Creates and pins shortcut as detailed in Summary section
-* Determines Java environment automatically, sets LD_LIBRARY_PATH in launch
+* Determines Java environment automatically, sets `LD_LIBRARY_PATH` in launch
   script to work around a bug that occurs when using JRE7 on 64-bit systems
 * Automatically determines memory settings to use - Defaults to initial java
   heap size of 512MB, maximum heap size of half available RAM
@@ -41,7 +41,6 @@ You should not need to edit any of these by default.
 Change to override defaults, all values are in MB.
 
 <pre>
-*VARIABLE*				*DESCRIPTION*
 MIN_MEM					Minimum memory requirement (default 2048 as per docs)
 JRE_XMX					Max memory heap size (default is half of total RAM, set
 						to a non-null value to override calculation)
@@ -52,7 +51,6 @@ JRE_XMS					Initial memory heap size (default 512)
 Change to override defaults.
 
 <pre>
-*VARIABLE*				*DESCRIPTION*
 JAVA_BIN				Full path to java binary (default is worked out using
  						`which` to locate java binary, set a custom path here
  						to override)
@@ -64,7 +62,6 @@ JAVA_LIB				Full path to lib folder (default is worked out from the
 Do not change these unless you understand what it is that they do.
 
 <pre>
-*VARIABLE*				*DESCRIPTION*
 MINECRAFT_DIR			Directory for Minecraft
 MINECRAFT_LOG			Path to STDOUT log, overwritten during each execution
 MINECRAFT_ERR_LOG		Path to STDERR log, overwritten during each execution
