@@ -80,7 +80,7 @@ OPTIRUN_FLAGS			If your system uses NVIDIA Optimus, it will by used
 Licensing
 ---------
 
-Copyright 2013 Phasma <phasma [AT] binarycore [DOT] org>
+Copyright 2013 Phasma <phasma@binarycore.org>
 All rights reserved.
 
 This work is licensed under the BSD 2-Clause License. To view a copy of this
