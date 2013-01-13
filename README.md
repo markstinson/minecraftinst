@@ -110,9 +110,9 @@ setting their value to `""`:
 ###Adding new launchers
 There are two steps to adding a new launcher:
 
-1. Add a new entry to the `LAUNCHERS` array,
+1. Add a new entry to the `LAUNCHERS` array
 1. Add a new launcher-specific settings array to define the various options
-   for installing the launcher.
+   for installing the launcher
 
 Licensing
 ---------
