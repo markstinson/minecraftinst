@@ -16,7 +16,7 @@ Functionality
 
 ###Detail
 * Creates launch script for Minecraft / Technic Pack / Spoutcraft in
-  `~/.minecraft/minecraft.sh`
+  `~/.${BASE_DIR}/launch.sh`
 * Adds shell alias for `minecraft` / `technic` / `spout`
 * Creates and pins shortcut as detailed in summary
 * Determines Java environment automatically, sets `LD_LIBRARY_PATH` in launch
@@ -73,31 +73,29 @@ OPTIRUN_FLAGS   If your system uses NVIDIA Optimus, it will by used by this
 
 Launchers
 ---------
-The script now supports multiple launchers, as defined by the LAUNCHERS array
+The script now supports multiple launchers, as defined by the `LAUNCHERS` array
 and following parameter array for each launcher.
 
 ###Launcher configuration
-There are two parts to defining launchers; the LAUNCHERS array, and the
+There are two parts to defining launchers; the `LAUNCHERS` array, and the
 launcher-specific settings arrays.
 
-The LAUNCHERS array defines the list of available launchers - These values are
+The `LAUNCHERS` array defines the list of available launchers - These values are
 also used as the script parameter options.
 
 The launcher-specific settings arrays must have the same name as their
-corresponding entry in the LAUNCHERS array, except that the name of the
+corresponding entry in the `LAUNCHERS` array, except that the name of the
 launcher-specific settings array must be in uppercase. The following fields
 are available for each launcher, any optional ones may be left blank by
 setting their value to `""`:
-#   Display name, base directory, JAR URL, JAR filename, shortcut filename,
-#   icon URL, custom command[s] to execute before launching.
 1. Display name - The "friendly" name for the launcher, used in places such as
    the shortcut name. Example: `"Spoutcraft"`
-1. Base directory - Directory in which to place the JAR file for the launcher,
+1. Base directory - Directory in which to place the jar file for the launcher,
    this should ideally be the same place as where the launcher stores its files.
    Example: `"${HOME}/.spoutcraft"`
-1. JAR URL - Full address of the JAR file that should be downloaded for the
+1. Jar URL - Full address of the jar file that should be downloaded for the
    launcher. Example: `http://get.spout.org/Spoutcraft.jar`
-1. JAR filename - Name to save the JAR file as within the base directory.
+1. Jar filename - Name to save the jar file as within the base directory.
    Example: `spoutcraft.jar`
 1. Shortcut filename - Name to save the shortcut as, this should usually have
    the `.desktop` extension. Example: `spoutcraft.desktop`
@@ -110,7 +108,7 @@ setting their value to `""`:
 
 ###Adding new launchers
 There are two steps to adding a new launcher:
-1. Add a new entry to the LAUNCHERS array,
+1. Add a new entry to the `LAUNCHERS` array,
 1. Add a new launcher-specific settings array to define the various options
    for installing the launcher.
 
