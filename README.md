@@ -90,18 +90,18 @@ are available for each launcher, any optional ones may be left blank by
 setting their value to `""`:
 1. Display name - The "friendly" name for the launcher, used in places such as
    the shortcut name. Example: `"Spoutcraft"`
-1. Base directory - Directory in which to place the jar file for the launcher,
+2. Base directory - Directory in which to place the jar file for the launcher,
    this should ideally be the same place as where the launcher stores its files.
    Example: `"${HOME}/.spoutcraft"`
-1. Jar URL - Full address of the jar file that should be downloaded for the
+3. Jar URL - Full address of the jar file that should be downloaded for the
    launcher. Example: `http://get.spout.org/Spoutcraft.jar`
-1. Jar filename - Name to save the jar file as within the base directory.
+4. Jar filename - Name to save the jar file as within the base directory.
    Example: `spoutcraft.jar`
-1. Shortcut filename - Name to save the shortcut as, this should usually have
+5. Shortcut filename - Name to save the shortcut as, this should usually have
    the `.desktop` extension. Example: `spoutcraft.desktop`
-1. Icon URL - Full address of the icon to download and use for the shortcut,
+6. Icon URL - Full address of the icon to download and use for the shortcut,
    this should be in PNG format. Example: `http://i.imgur.com/xY1MG.png`
-1. Custom command - Any custom commands to run in the launcher script before
+7. Custom command - Any custom commands to run in the launcher script before
    running launcher. Example: `touch ${HOME}/.techniclauncher/rtemp` (This
    example prevents Technic Pack from automatically respawning - Without this
    workaround it would not use `optirun`)
@@ -109,7 +109,7 @@ setting their value to `""`:
 ###Adding new launchers
 There are two steps to adding a new launcher:
 1. Add a new entry to the `LAUNCHERS` array,
-1. Add a new launcher-specific settings array to define the various options
+2. Add a new launcher-specific settings array to define the various options
    for installing the launcher.
 
 Licensing
