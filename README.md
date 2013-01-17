@@ -117,7 +117,7 @@ There are two steps to adding a new launcher:
 Licensing
 ---------
 
-Copyright 2013 Phasma <phasma@binarycore.org>
+Copyright 2013 Akythius <akythius@binarycore.org>
 
 All rights reserved.
 

@@ -2,14 +2,14 @@
 #------------------------------------------------------------------------------#
 #  Minecraft Installer for Linux                                               #
 #  Filename    : minecraftinst.sh                                              #
-#  Author      : Phasma <phasma [AT] binarycore [DOT] org>                     #
-#  URL         : https://github.com/AtrumPhasma/minecraftinst                  #
+#  Author      : Akythius <akythius [AT] binarycore [DOT] org>                 #
+#  URL         : https://github.com/Akythius/minecraftinst                     #
 #  Description : Script to install Minecraft, Technic Pack, and Spoutcraft on  #
 #                Linux. Tested on Ubuntu with Oracle JRE7. Other distributions #
 #                and JREs may or may not work. Please report any bugs and/or   #
 #                fixes.                                                        #
 #------------------------------------------------------------------------------#
-#  Copyright 2013 Phasma <phasma [AT] binarycore [DOT] org>                    #
+#  Copyright 2013 Akythius <akythius [AT] binarycore [DOT] org>                #
 #  All rights reserved.                                                        #
 #                                                                              #
 #  This work is licensed under the BSD 2-Clause License. To view a copy of     #
