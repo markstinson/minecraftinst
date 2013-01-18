@@ -90,15 +90,15 @@ setting their value to `""`:
    this should ideally be the same place as where the launcher stores its files.
    Example: `"${HOME}/.spoutcraft"`
 1. Jar URL - Full address of the jar file that should be downloaded for the
-   launcher. Example: `http://get.spout.org/Spoutcraft.jar`
+   launcher. Example: `"http://get.spout.org/Spoutcraft.jar"`
 1. Jar filename - Name to save the jar file as within the base directory.
-   Example: `spoutcraft.jar`
+   Example: `"spoutcraft.jar"`
 1. Shortcut filename - Name to save the shortcut as, this should usually have
-   the `.desktop` extension. Example: `spoutcraft.desktop`
+   the `.desktop` extension. Example: `"spoutcraft.desktop"`
 1. Icon URL - Full address of the icon to download and use for the shortcut,
-   this should be in PNG format. Example: `http://i.imgur.com/xY1MG.png`
+   this should be in PNG format. Example: `"http://i.imgur.com/xY1MG.png"`
 1. Custom command - Any custom commands to run in the launcher script before
-   running launcher. Example: `touch ${HOME}/.techniclauncher/rtemp` (This
+   running launcher. Example: `"touch ${HOME}/.techniclauncher/rtemp"` (This
    example prevents Technic Pack from automatically respawning - Without this
    workaround it would not use `optirun`)
 
@@ -112,7 +112,7 @@ There are two steps to adding a new launcher:
 Licensing
 ---------
 
-Copyright 2013 Akythius <akythius@binarycore.org>
+Copyright 2013 Akythius <akythius [AT] binarycore [DOT] org>
 
 All rights reserved.
 
