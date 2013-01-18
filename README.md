@@ -34,9 +34,9 @@ Usage
 The script accepts a single parameter which should dictate which launcher you
 want to install. The current options are as follows:
 
-* `minecraft` - Installs [Minecraft](http://minecraft.net/) 
-* `technic` - Installs [Technic Pack](http://www.technicpack.net/) 
-* `spout` - Installs [Spoutcraft](http://www.spout.org/) 
+* `minecraft` - Installs [Minecraft](http://minecraft.net/)
+* `technic` - Installs [Technic Pack](http://www.technicpack.net/)
+* `spout` - Installs [Spoutcraft](http://www.spout.org/)
 
 Configuration
 -------------
@@ -46,29 +46,25 @@ You should not need to edit any of these by default.
 ###Memory settings
 Change to override defaults, all values are in MB.
 
-| Variable     | Comment                                                       |
-| MIN_MEM      | Minimum memory requirement (default 2048 as per docs)         |
-| JRE_XMX      | Max memory heap size (default is half of total RAM, set to a  |
-|              | non-null value to override calculation)                       |
-| JRE_XMS      | Initial memory heap size (default 512)                        |
+* `MIN_MEM` - Minimum memory requirement (default 2048 as per docs)
+* `JRE_XMX` - Max memory heap size (default is half of total RAM, set to a
+              non-null value to override calculation)
+* `JRE_XMS` - Initial memory heap size (default 512)
 
 ###Java enviroment settings
 Change to override defaults.
 
-| Variable     | Comment                                                       |
-| JAVA_BIN     | Full path to java binary (default is worked out using `which` |
-|              | to locate java binary, set a custom path here to override)    |
-| JAVA_LIB     | Full path to lib folder (default is worked out from the path  |
-|              | to `java`, set a custom path here to override)                |
+* `JAVA_BIN` - Full path to java binary (default is worked out using `which`
+               to locate java binary, set a custom path here to override)
+* `JAVA_LIB` - Full path to lib folder (default is worked out from the path
+               to `java`, set a custom path here to override)
 
 ###NVIDIA Optimus settings
 Advanced - Change to set custom flags to use for `optirun`.
 
-<pre>
-OPTIRUN_FLAGS   If your system uses NVIDIA Optimus, it will by used by this
-                script. You can specify custom flags to pass to `optirun`
-                using this variable.
-</pre>
+* `OPTIRUN_FLAGS` - If your system uses NVIDIA Optimus, it will by used by this
+                    script. You can specify custom flags to pass to `optirun`
+                    using this variable.
 
 Launchers
 ---------
