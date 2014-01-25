@@ -128,7 +128,7 @@ then
 fi
 
 # Check if we've got a java binary in our path
-if [ ! -x ${JAVA_BIN} ]
+if [ -z "${JAVA_BIN}" ] || [ ! -x ${JAVA_BIN} ]
 then
     F_ERR_EXIT "Java not found, please install before attempting to install ${DISPLAY_NAME}"
 fi
