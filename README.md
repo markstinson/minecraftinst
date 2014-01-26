@@ -1,6 +1,19 @@
 Minecraft Installer for Linux
 =============================
 
+**IMPORTANT:** This script is now *deprecated and unsupported*. A good alternative for Ubuntu is [Unofficial Minecraft Installer](https://launchpad.net/~minecraft-installer-peeps/+archive/minecraft-installer), which can be installed by running:
+```
+sudo add-apt-repository ppa:minecraft-installer-peeps/minecraft-installer
+sudo apt-get update && sudo apt-get install minecraft-installer
+```
+
+Original script documentation for "Minecraft Installer for Linux" follows.
+
+---
+
+Summary
+-------
+
 Installation script for Minecraft, Technic Pack, and Spoutcraft on Linux.
 Tested on Ubuntu Linux 12.10 with Oracle JRE7. Other distributions and JREs
 may or may not work. Please report any bugs and/or fixes.
